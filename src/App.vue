@@ -5,7 +5,7 @@
     <input type="email" v-model="userEmail" placeholder="email">
 
     <button @click="sendData()">Sending...</button>
-    <p className="error">{{ error }}</p>
+    <p className="error">{{ error }}</p> 
 
     <div v-if="users.length == 0" className="user">
         User not found

@@ -4,7 +4,7 @@
         <h3>{{ user.name }}</h3>
         <p>{{ user.email }} - <b>{{ user.pass }}</b></p>
     </div>
-</template>
+</template> 
 
 <script>
 export default {
